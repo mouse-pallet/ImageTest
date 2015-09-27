@@ -15,6 +15,7 @@
 		B5F262C71BB6717D00B85282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F262C51BB6717D00B85282 /* LaunchScreen.storyboard */; };
 		B5F262D21BB6717D00B85282 /* ImageTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F262D11BB6717D00B85282 /* ImageTestTests.m */; };
 		B5F262DD1BB6717D00B85282 /* ImageTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F262DC1BB6717D00B85282 /* ImageTestUITests.m */; };
+		B5F262EB1BB671FC00B85282 /* image01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F262EA1BB671FC00B85282 /* image01.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B5F262D81BB6717D00B85282 /* ImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F262DC1BB6717D00B85282 /* ImageTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTestUITests.m; sourceTree = "<group>"; };
 		B5F262DE1BB6717D00B85282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F262EA1BB671FC00B85282 /* image01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B5F262B61BB6717D00B85282 /* ImageTest */ = {
 			isa = PBXGroup;
 			children = (
+				B5F262EA1BB671FC00B85282 /* image01.png */,
 				B5F262BA1BB6717D00B85282 /* AppDelegate.h */,
 				B5F262BB1BB6717D00B85282 /* AppDelegate.m */,
 				B5F262BD1BB6717D00B85282 /* ViewController.h */,
@@ -245,6 +248,7 @@
 			files = (
 				B5F262C71BB6717D00B85282 /* LaunchScreen.storyboard in Resources */,
 				B5F262C41BB6717D00B85282 /* Assets.xcassets in Resources */,
+				B5F262EB1BB671FC00B85282 /* image01.png in Resources */,
 				B5F262C21BB6717D00B85282 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +500,7 @@
 				B5F262E31BB6717D00B85282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5F262E41BB6717D00B85282 /* Build configuration list for PBXNativeTarget "ImageTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				B5F262E61BB6717D00B85282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5F262E71BB6717D00B85282 /* Build configuration list for PBXNativeTarget "ImageTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				B5F262E91BB6717D00B85282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
